@@ -1,0 +1,24 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Pagina para festival de musica con sass y npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-edward-lopez/Festivalmusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "John Edward Lopez Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-edward-lopez/Festivalmusica/issues"
+  },
+  "homepage": "https://github.com/john-edward-lopez/Festivalmusica#readme"
+}
