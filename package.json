@@ -2,9 +2,12 @@
   "name": "festivalmusica",
   "version": "1.0.0",
   "description": "Pagina para festival de musica con sass y npm",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/john-edward-lopez/Festivalmusica/issues"
   },
-  "homepage": "https://github.com/john-edward-lopez/Festivalmusica#readme"
+  "homepage": "https://github.com/john-edward-lopez/Festivalmusica#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.83.0"
+  }
 }
